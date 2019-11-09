@@ -1,0 +1,71 @@
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  font-weight: normal ;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .top {
+    background: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg);
+    background-color: #090d31;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    
+  }
+
+  .top::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #090d31;
+    opacity: 0.9;
+  }
+
+  .logo {
+    position: relative;
+    width: 130px;
+    fill: #ffffff;
+    margin: auto;
+    padding-top: 35px;
+    z-index: 1;
+    padding-bottom: 35px;
+  }
+
+  .header-text {
+    font-family: OpenSans-Bold;
+    z-index: 1;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 100px;
+    
+    
+  }
+  
+  .text-end {
+    padding-left: 44px;
+  }
+  
+ 
+}
+
